@@ -3,20 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>tekyo-20250627_1（PDF）</title>
+  <title>申入書（2025-06-27）原文PDF</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; margin: 16px; line-height: 1.6; }
+    .wrap { max-width: 1000px; margin: 0 auto; }
+    .box { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+    .pdf { width: 100%; height: 85vh; border: 0; }
+    .meta { color: #555; font-size: 0.95rem; }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <h1>tekyo-20250627_1（原文PDF）</h1>
+  <div class="wrap">
+    <h1>申入書（2025-06-27）原文PDF</h1>
+    <p class="meta">
+      原文性保持のため、本文はPDFで公開します。表示できない場合は下のリンクから直接開いてください。
+    </p>
 
-  <p>
-    <a href="./test3-20250627_1.pdf">PDFを別タブで開く</a>
-  </p>
+    <p>
+      ? <a href="./test3-20250627_1.pdf">PDFを別タブで開く</a>
+      &nbsp;|&nbsp;
+      ?? <a href="./test3-20250627_1.pdf" download>PDFをダウンロード</a>
+    </p>
 
-  <iframe
-    src="./test3-20250627_1.pdf"
-    width="100%"
-    height="900"
-    style="border: 1px solid #ccc;"
-  ></iframe>
+    <div class="box">
+      <object data="./test3-20250627_1.pdf" type="application/pdf" class="pdf">
+        <iframe src="./test3-20250627_1.pdf" class="pdf"></iframe>
+      </object>
+    </div>
+
+    <hr>
+    <p class="meta">
+      ※PDFが表示されない場合：ブラウザや設定により埋め込み表示が制限されることがあります。その場合は上のリンクからPDFを開いてください。
+    </p>
+  </div>
 </body>
 </html>
